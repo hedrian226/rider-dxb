@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-08T11:22:08.762Z",
+  "generatedAt": "2026-09-08T11:30:00.801Z",
   "htmlBytes": 610,
-  "requiredWebsiteBytes": 11726636,
+  "requiredWebsiteBytes": 11726789,
   "previousSingleHtmlBytes": 24958740,
   "reductionPercent": 53.02,
   "note": "Uncompressed required website files; excludes launcher, documentation and report. Network transfer can be smaller with Brotli. Geometry and animation data are preserved; diffuse/roughness textures use lossy WebP.",
@@ -819,17 +819,17 @@
     {
       "file": "index.html",
       "bytes": 610,
-      "sha256": "e874e42d9341794c1474b9a3bed692e4cba936ba8970d6b6d140382130af3ca7"
+      "sha256": "604b875267e7b34c614e203c4b88f4b86500c01c6d9a462ed672da772246ed55"
     },
     {
-      "file": "js/Engine-CJaLdQIc.js",
-      "bytes": 84582,
-      "sha256": "c649287261840d85d53a6dbe198426fd3ccd0deb4b957639cf68f2e8f9b14202"
+      "file": "js/Engine-CF9HEsvd.js",
+      "bytes": 84735,
+      "sha256": "044b607d7999630f5dbdd13d2e50e39e6c94e5c91e2adc9aea9a130999b84a95"
     },
     {
-      "file": "js/index-DUvw6MpC.js",
+      "file": "js/index-BXHGt16n.js",
       "bytes": 423659,
-      "sha256": "3b1f0cfbaa45ea6854ccc64f8ff72c1fbc8abc67fb19adc4e5de5b05031319f9"
+      "sha256": "294acf06292e2d53ae5824162d4753a218b4849baeec91bc7d25dedae08aee3e"
     },
     {
       "file": "js/rolldown-runtime-C_Tp3paw.js",
