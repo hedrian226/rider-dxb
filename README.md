@@ -6,6 +6,17 @@ The launcher uses Node.js. It can also use the bundled Node.js runtime on the co
 
 Opening index.html directly is not supported: the game now loads separate JavaScript modules, models and textures through a local web server.
 
+## City Upgrade 03
+
+- Three delivery routes: Desert Bite to Apartment 2108, Safa Café to Waterfront concierge, and Noor Market to Al Sahil Hotel. Next delivery cycles routes; declining shows another offer.
+- Earn tips for timely, careful deliveries. Order condition decreases with time after collection and with collisions. Phone → Profile offers three tiers each of engine tuning, touring tires and insulated bags, bought with earned in-game AED.
+- Smoother steering, inward lean, braking pitch, a short mount/dismount transition, and Pause → Recover motorcycle when stopped at ground level.
+- Settings → Gameplay lets you swap control sides, change control size and raise the controls. Sizes fit within the device width automatically.
+- Settings → Graphics offers automatic resolution adjustment and a rain-particle toggle. Distant characters animate less often, while the simulation keeps moving.
+- Traffic follows red/amber/green lights, leaves bumper clearance and yields to occupied crossings. Vehicle cabins, brake lights, crosswalks and nearby night street lighting have been updated.
+
+Existing saves keep their current original delivery route and receive default upgrade levels. Settings and upgrade purchases stay in that browser's save.
+
 ## Phones and tablets
 
 Open the hosted game in a modern browser with WebGL 2. Touch controls appear automatically: use the joystick to walk, the steering buttons and pedals to ride, and drag the scene to look. Phone, pause, jump, run, horn, lights, mount/dismount and nearby interaction controls are available on screen. Portrait and landscape are supported. Graphics start at Low on a new touch device; you can change them in Settings.
@@ -16,7 +27,7 @@ Settings → Gameplay → Touch controls can force the controls On or Off, or ke
 
 If controls are missing, tap **Show touch controls** on the main menu or in the game. Auto now also recognizes compact phone/tablet windows, older touch events and browser mobile identity, and rechecks when the screen rotates. A saved Off setting remains Off until you enable controls. Driving/walking controls appear after you start or continue a shift and close any open menu.
 
-To update an existing hosted game, replace the complete website files from this ZIP, redeploy, and reload the page on the phone. Downloading a new ZIP alone does not update a previously deployed site. This package is the **Mobile controls 2** update.
+To update an existing hosted game, replace the complete website files from this ZIP, redeploy, and reload the page on the phone. Downloading a new ZIP alone does not update a previously deployed site. This package is the **City Upgrade 03** update.
 
 ## Folder contents
 

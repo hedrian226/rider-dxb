@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-09-08T12:01:16.149Z",
-  "htmlBytes": 1054,
-  "requiredWebsiteBytes": 11788387,
+  "generatedAt": "2026-09-08T12:34:28.109Z",
+  "htmlBytes": 1208,
+  "requiredWebsiteBytes": 11806464,
   "previousSingleHtmlBytes": 24958740,
-  "reductionPercent": 52.77,
+  "reductionPercent": 52.7,
   "note": "Uncompressed required website files; excludes launcher, documentation and report. Network transfer can be smaller with Brotli. Geometry and animation data are preserved; diffuse/roughness textures use lossy WebP.",
   "optimization": {
     "surfaces": {
@@ -832,24 +832,24 @@
       "sha256": "643eceebc6eb15166e7676371ba36b770d3c900e09d1c00dfc9431f7561b7689"
     },
     {
-      "file": "css/index-6YTVbxOl.css",
-      "bytes": 204530,
-      "sha256": "4df99a7c65a48654a2f480a5dedd94d07e7e2e09869a62b6919d65c5e4ca118a"
+      "file": "css/index-BCDexn7u.css",
+      "bytes": 205633,
+      "sha256": "f7534cacd9a1b76a6902e08452feb58dd3fa9a418800be627b56359dfd27b9db"
     },
     {
       "file": "index.html",
-      "bytes": 1054,
-      "sha256": "589d3baf1308f5b238c5bd0ee384f2a1ab21d8753e8f6483e3e055d29013c91a"
+      "bytes": 1208,
+      "sha256": "352332b4c8d9dcee1535be384bcba1d8a4c744a9d3f5ec8c24f3e61c3e4cd5df"
     },
     {
-      "file": "js/Engine-Dll7lWs_.js",
-      "bytes": 87211,
-      "sha256": "87506ea499441c2967cea5ea4bfc2ee9139578eaae88c795c12077e5238dbb0a"
+      "file": "js/Engine-zk8vH3SR.js",
+      "bytes": 54051,
+      "sha256": "729f5b3378a57c2582f8203fdf1b1b9ecc781642ba314dbcfde58db9495b9d8a"
     },
     {
-      "file": "js/index-PBkM3Iyy.js",
-      "bytes": 435382,
-      "sha256": "750e8df8084a56064c1cae2a270b06120aedd8e28e386bbbc720a8a78546beb5"
+      "file": "js/index-BQCLlIYD.js",
+      "bytes": 485362,
+      "sha256": "fb2d06c43a12d99fade7e2dc3370d76f161e72b6731e9a14be03c6c190abe71c"
     },
     {
       "file": "js/rolldown-runtime-C_Tp3paw.js",
