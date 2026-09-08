@@ -13,6 +13,7 @@ if(!Number.isInteger(port)||port<1024||port>65535)throw Error('Choose a port fro
 const base='/' + String(option('--base','')).split('/').filter(Boolean).join('/');
 const prefix=base==='/'?'':base;
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.fbx':'application/octet-stream','.webp':'image/webp','.jpg':'image/jpeg','.jpeg':'image/jpeg','.png':'image/png','.svg':'image/svg+xml','.woff2':'font/woff2','.wasm':'application/wasm'};
+mime['.webmanifest']='application/manifest+json';
 const packed=new Map(),compress=promisify(brotliCompress);
 const server=http.createServer(async(req,res)=>{
  try{
