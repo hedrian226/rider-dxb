@@ -1,0 +1,17 @@
+{
+  "id": "./",
+  "name": "RIDER DXB",
+  "short_name": "RIDER DXB",
+  "description": "Ride, collect and deliver in Al Noor, Dubai.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "display_override": ["fullscreen", "standalone"],
+  "orientation": "any",
+  "background_color": "#17262b",
+  "theme_color": "#17262b",
+  "icons": [
+    {"src": "./assets/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "./assets/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"}
+  ]
+}

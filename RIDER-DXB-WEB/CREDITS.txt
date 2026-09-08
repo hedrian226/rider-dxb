@@ -1,0 +1,13 @@
+RIDER DXB — asset and library credits
+
+Road and concrete textures: Poly Haven (CC0), asphalt_02 and concrete_floor_03.
+https://polyhaven.com/a/asphalt_02
+https://polyhaven.com/a/concrete_floor_03
+
+Remy character and animation clips: Adobe Mixamo. Included for use in this game;
+not licensed as a standalone stock asset collection.
+https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html
+
+Three.js: MIT license. https://github.com/mrdoob/three.js/blob/dev/LICENSE
+React: MIT license. https://github.com/facebook/react/blob/main/LICENSE
+See THIRD-PARTY-LICENSES.txt for installed dependency notices.
