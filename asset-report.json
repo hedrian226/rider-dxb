@@ -1,0 +1,850 @@
+{
+  "generatedAt": "2026-09-08T11:22:08.762Z",
+  "htmlBytes": 610,
+  "requiredWebsiteBytes": 11726636,
+  "previousSingleHtmlBytes": 24958740,
+  "reductionPercent": 53.02,
+  "note": "Uncompressed required website files; excludes launcher, documentation and report. Network transfer can be smaller with Brotli. Geometry and animation data are preserved; diffuse/roughness textures use lossy WebP.",
+  "optimization": {
+    "surfaces": {
+      "tool": "sharp 0.34.5 / libvips 8.17.3",
+      "policy": "Keep all 1024 x 1024 dimensions; diffuse and grayscale roughness WebP quality 90; retain both JPEG normals byte-for-byte to avoid additional normal-direction error; strip metadata from re-encoded maps; leave originals untouched.",
+      "normalEncodingDecision": "Lossless WebP increased normal sizes by 71–80%. Quality-100 lossy WebP caused RMS normal-direction errors of 8.28 degrees (asphalt) and 1.013 degrees (concrete), exceeding the 1 degree acceptance threshold. Source JPEGs retain their existing compression without adding further distortion.",
+      "errorMethod": "Compare decoded source and output 8-bit sRGB pixels. These metrics measure additional encoding error relative to the supplied JPEGs, not uncompressed originals. Normal-map pixels must be identical.",
+      "totals": {
+        "sourceBytes": 5719456,
+        "outputBytes": 4197573,
+        "savedBytes": 1521883,
+        "reductionPercent": 26.61
+      },
+      "maps": [
+        {
+          "source": "asphalt_02_diff_1k.jpg",
+          "output": "asphalt_02_diff_1k.webp",
+          "kind": "diffuse",
+          "sourceBytes": 731707,
+          "outputBytes": 522464,
+          "savedBytes": 209243,
+          "reductionPercent": 28.6,
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "outputDimensions": [
+            1024,
+            1024
+          ],
+          "encoding": {
+            "format": "webp",
+            "quality": 90,
+            "effort": 6,
+            "smartSubsample": true
+          },
+          "error": {
+            "meanAbsoluteError8Bit": 1.795503,
+            "rootMeanSquareError8Bit": 2.315477,
+            "maxError8Bit": 62,
+            "psnrDb": 40.838,
+            "decodedPixelsIdentical": false
+          }
+        },
+        {
+          "source": "asphalt_02_nor_gl_1k.jpg",
+          "output": "asphalt_02_nor_gl_1k.jpg",
+          "kind": "normal",
+          "sourceBytes": 1240122,
+          "outputBytes": 1240122,
+          "savedBytes": 0,
+          "reductionPercent": 0,
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "outputDimensions": [
+            1024,
+            1024
+          ],
+          "encoding": {
+            "format": "jpeg",
+            "mode": "copy-original",
+            "additionalNormalDirectionErrorDegrees": 0
+          },
+          "error": {
+            "meanAbsoluteError8Bit": 0,
+            "rootMeanSquareError8Bit": 0,
+            "maxError8Bit": 0,
+            "psnrDb": "Infinity (pixel-exact)",
+            "decodedPixelsIdentical": true
+          }
+        },
+        {
+          "source": "asphalt_02_rough_1k.jpg",
+          "output": "asphalt_02_rough_1k.webp",
+          "kind": "roughness",
+          "sourceBytes": 544032,
+          "outputBytes": 389652,
+          "savedBytes": 154380,
+          "reductionPercent": 28.38,
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "outputDimensions": [
+            1024,
+            1024
+          ],
+          "encoding": {
+            "format": "webp",
+            "quality": 90,
+            "effort": 6,
+            "smartSubsample": true
+          },
+          "error": {
+            "meanAbsoluteError8Bit": 1.624928,
+            "rootMeanSquareError8Bit": 2.114616,
+            "maxError8Bit": 11,
+            "psnrDb": 41.6262,
+            "decodedPixelsIdentical": false
+          }
+        },
+        {
+          "source": "concrete_floor_03_diff_1k.jpg",
+          "output": "concrete_floor_03_diff_1k.webp",
+          "kind": "diffuse",
+          "sourceBytes": 1184196,
+          "outputBytes": 513416,
+          "savedBytes": 670780,
+          "reductionPercent": 56.64,
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "outputDimensions": [
+            1024,
+            1024
+          ],
+          "encoding": {
+            "format": "webp",
+            "quality": 90,
+            "effort": 6,
+            "smartSubsample": true
+          },
+          "error": {
+            "meanAbsoluteError8Bit": 2.125403,
+            "rootMeanSquareError8Bit": 2.743975,
+            "maxError8Bit": 18,
+            "psnrDb": 39.3632,
+            "decodedPixelsIdentical": false
+          }
+        },
+        {
+          "source": "concrete_floor_03_nor_gl_1k.jpg",
+          "output": "concrete_floor_03_nor_gl_1k.jpg",
+          "kind": "normal",
+          "sourceBytes": 1105067,
+          "outputBytes": 1105067,
+          "savedBytes": 0,
+          "reductionPercent": 0,
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "outputDimensions": [
+            1024,
+            1024
+          ],
+          "encoding": {
+            "format": "jpeg",
+            "mode": "copy-original",
+            "additionalNormalDirectionErrorDegrees": 0
+          },
+          "error": {
+            "meanAbsoluteError8Bit": 0,
+            "rootMeanSquareError8Bit": 0,
+            "maxError8Bit": 0,
+            "psnrDb": "Infinity (pixel-exact)",
+            "decodedPixelsIdentical": true
+          }
+        },
+        {
+          "source": "concrete_floor_03_rough_1k.jpg",
+          "output": "concrete_floor_03_rough_1k.webp",
+          "kind": "roughness",
+          "sourceBytes": 914332,
+          "outputBytes": 426852,
+          "savedBytes": 487480,
+          "reductionPercent": 53.32,
+          "sourceDimensions": [
+            1024,
+            1024
+          ],
+          "outputDimensions": [
+            1024,
+            1024
+          ],
+          "encoding": {
+            "format": "webp",
+            "quality": 90,
+            "effort": 6,
+            "smartSubsample": true
+          },
+          "error": {
+            "meanAbsoluteError8Bit": 1.625663,
+            "rootMeanSquareError8Bit": 2.100183,
+            "maxError8Bit": 11,
+            "psnrDb": 41.6857,
+            "decodedPixelsIdentical": false
+          }
+        }
+      ]
+    },
+    "rider": {
+      "fbxBytes": 1954784,
+      "textureBytes": 3670694,
+      "totalBytes": 5625478,
+      "removedTextureNodes": 14,
+      "removedVideoNodes": 10,
+      "removedConnections": 35,
+      "keptTextureFiles": 12,
+      "alphaMapDependencies": [
+        "hair-opacity-b7eca9491514.webp",
+        "body-opacity-93d653bec587.webp"
+      ],
+      "retainedTextures": [
+        {
+          "file": "bottom-diffuse-3d6e895a2b03.webp",
+          "bytes": 220992,
+          "sha256": "3d6e895a2b03d48adc6d991f07ae3732697c75a179f72032a7b651d9699bbe36"
+        },
+        {
+          "file": "bottom-normal-413dc4370793.webp",
+          "bytes": 755932,
+          "sha256": "413dc4370793f670324f212a8075cfc712d6ba32f895b27924418c4903d9c121"
+        },
+        {
+          "file": "hair-diffuse-3ca3551b5df3.webp",
+          "bytes": 67946,
+          "sha256": "3ca3551b5df3a5ae33c913a7947983b3a9fd308ef9aa1547cdf2a4f6a210f064"
+        },
+        {
+          "file": "hair-normal-83fc81fc4692.webp",
+          "bytes": 119716,
+          "sha256": "83fc81fc46925df77d9b75eb74ca094d50ddaf0c034dfd62b06314064fab17cc"
+        },
+        {
+          "file": "hair-opacity-b7eca9491514.webp",
+          "bytes": 278706,
+          "sha256": "b7eca9491514f50af273563dff9d7a75af2c141a1c2dc0f754d857e10160dd5f"
+        },
+        {
+          "file": "top-diffuse-9f4da3de5a7e.webp",
+          "bytes": 140260,
+          "sha256": "9f4da3de5a7e27aaf9c649216ff832ce5dd8e2c41d881108b117e5076aaccb2c"
+        },
+        {
+          "file": "top-normal-643eceebc6eb.webp",
+          "bytes": 484108,
+          "sha256": "643eceebc6eb15166e7676371ba36b770d3c900e09d1c00dfc9431f7561b7689"
+        },
+        {
+          "file": "shoes-diffuse-5da1870aa0f9.webp",
+          "bytes": 143470,
+          "sha256": "5da1870aa0f996cba215b39e15eef14426f0fb0cb5a4f47727885ff7e979807b"
+        },
+        {
+          "file": "shoes-normal-3b04d36f0b9b.webp",
+          "bytes": 765538,
+          "sha256": "3b04d36f0b9b8cd77232bb29fba44a237c1e3b64e8d631c096193a8c0b4f9625"
+        },
+        {
+          "file": "body-diffuse-478218108e43.webp",
+          "bytes": 170162,
+          "sha256": "478218108e4328da9b631163eeb21b165ee3e511d4ee0429ad50835a25116814"
+        },
+        {
+          "file": "body-normal-c89869e981b7.webp",
+          "bytes": 518830,
+          "sha256": "c89869e981b7f9d47d07b470d4ac4c4f187a14d9af4b07e9a35bc55d08f66205"
+        },
+        {
+          "file": "body-opacity-93d653bec587.webp",
+          "bytes": 5034,
+          "sha256": "93d653bec587e1d0d1b7c31f9f6027fc21082590021873bbefe3c13e2728bb55"
+        }
+      ],
+      "unchangedNonTextureObjects": 622,
+      "materialFieldsIdentical": true,
+      "materials": [
+        {
+          "mesh": "Bottoms",
+          "material": "Bottommat.003",
+          "map": {
+            "file": "bottom-diffuse-3d6e895a2b03.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": "srgb"
+          },
+          "normalMap": {
+            "file": "bottom-normal-413dc4370793.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": ""
+          },
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "transparent": false,
+          "opacity": 1,
+          "side": 0,
+          "alphaTest": 0
+        },
+        {
+          "mesh": "Hair",
+          "material": "Hairmat.003",
+          "map": {
+            "file": "hair-diffuse-3ca3551b5df3.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": "srgb"
+          },
+          "normalMap": {
+            "file": "hair-normal-83fc81fc4692.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": ""
+          },
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "transparent": true,
+          "opacity": 1,
+          "side": 0,
+          "alphaTest": 0
+        },
+        {
+          "mesh": "Tops",
+          "material": "Topmat.003",
+          "map": {
+            "file": "top-diffuse-9f4da3de5a7e.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": "srgb"
+          },
+          "normalMap": {
+            "file": "top-normal-643eceebc6eb.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": ""
+          },
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "transparent": false,
+          "opacity": 1,
+          "side": 0,
+          "alphaTest": 0
+        },
+        {
+          "mesh": "Shoes",
+          "material": "Shoesmat.003",
+          "map": {
+            "file": "shoes-diffuse-5da1870aa0f9.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": "srgb"
+          },
+          "normalMap": {
+            "file": "shoes-normal-3b04d36f0b9b.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": ""
+          },
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "transparent": false,
+          "opacity": 1,
+          "side": 0,
+          "alphaTest": 0
+        },
+        {
+          "mesh": "Eyelashes",
+          "material": "Eyelashmat.003",
+          "map": {
+            "file": "body-diffuse-478218108e43.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": "srgb"
+          },
+          "normalMap": {
+            "file": "body-normal-c89869e981b7.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": ""
+          },
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "transparent": true,
+          "opacity": 1,
+          "side": 0,
+          "alphaTest": 0
+        },
+        {
+          "mesh": "Eyes",
+          "material": "Bodymat.006",
+          "map": {
+            "file": "body-diffuse-478218108e43.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": "srgb"
+          },
+          "normalMap": {
+            "file": "body-normal-c89869e981b7.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": ""
+          },
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "transparent": false,
+          "opacity": 1,
+          "side": 0,
+          "alphaTest": 0
+        },
+        {
+          "mesh": "Body",
+          "material": "Bodymat.005",
+          "map": {
+            "file": "body-diffuse-478218108e43.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": "srgb"
+          },
+          "normalMap": {
+            "file": "body-normal-c89869e981b7.webp",
+            "repeat": [
+              1,
+              1
+            ],
+            "offset": [
+              0,
+              0
+            ],
+            "wrapS": 1000,
+            "wrapT": 1000,
+            "colorSpace": ""
+          },
+          "color": [
+            1,
+            1,
+            1
+          ],
+          "transparent": false,
+          "opacity": 1,
+          "side": 0,
+          "alphaTest": 0
+        }
+      ],
+      "sourceSha256": "17b918a627646b79fe305649a5ad792eef8f3e0a0930c98ebd7a1b91d30bacad",
+      "outputSha256": "2fc0c5eefff235626f20eae5cd2f2e85e501ff797eaf3e394750735152fc7b21",
+      "note": "Retained alpha-map texture connections because FBXLoader sets material.transparent from them, even though the final game discards alphaMap. Pruned specular/gloss maps only when no retained material channel references them. All geometry/skin/bones and nontexture object properties unchanged. All retained texture files byte-identical to first optimization."
+    },
+    "loaderVerification": {
+      "passed": true,
+      "loader": "Three.js 0.180 FBXLoader",
+      "meshes": 7,
+      "skinnedMeshes": 7,
+      "vertices": 105546,
+      "bones": 455,
+      "worldBounds": {
+        "min": [
+          -81.480205186,
+          -0.221690767,
+          -13.982375208
+        ],
+        "max": [
+          81.479234397,
+          159.005644134,
+          16.633757698
+        ]
+      },
+      "animationClips": 0,
+      "parsedRepresentationSha256": "d1a4c77789e7d3a83124dea78984c6383d97edd7132032df25b65ac267c83fbe",
+      "verified": "Geometry attributes and index arrays; groups; all bone names, hierarchy, local/world transforms; all inverse-bind matrices; mesh transforms; bind matrices; skin indices/weights; animation tracks; world bounds identical after real FBXLoader parse.",
+      "resolvedExternalTextures": [
+        "body-diffuse-478218108e43.webp",
+        "body-normal-c89869e981b7.webp",
+        "body-opacity-93d653bec587.webp",
+        "bottom-diffuse-3d6e895a2b03.webp",
+        "bottom-normal-413dc4370793.webp",
+        "hair-diffuse-3ca3551b5df3.webp",
+        "hair-normal-83fc81fc4692.webp",
+        "hair-opacity-b7eca9491514.webp",
+        "shoes-diffuse-5da1870aa0f9.webp",
+        "shoes-normal-3b04d36f0b9b.webp",
+        "top-diffuse-9f4da3de5a7e.webp",
+        "top-normal-643eceebc6eb.webp"
+      ]
+    },
+    "animations": {
+      "before": 584742,
+      "after": 584742
+    },
+    "files": [
+      {
+        "to": "models/rider.fbx",
+        "key": "/assets/rider.fbx",
+        "texture": false
+      },
+      {
+        "to": "textures/rider/body-diffuse-478218108e43.webp",
+        "key": "body-diffuse-478218108e43.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/body-normal-c89869e981b7.webp",
+        "key": "body-normal-c89869e981b7.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/body-opacity-93d653bec587.webp",
+        "key": "body-opacity-93d653bec587.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/bottom-diffuse-3d6e895a2b03.webp",
+        "key": "bottom-diffuse-3d6e895a2b03.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/bottom-normal-413dc4370793.webp",
+        "key": "bottom-normal-413dc4370793.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/hair-diffuse-3ca3551b5df3.webp",
+        "key": "hair-diffuse-3ca3551b5df3.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/hair-normal-83fc81fc4692.webp",
+        "key": "hair-normal-83fc81fc4692.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/hair-opacity-b7eca9491514.webp",
+        "key": "hair-opacity-b7eca9491514.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/shoes-diffuse-5da1870aa0f9.webp",
+        "key": "shoes-diffuse-5da1870aa0f9.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/shoes-normal-3b04d36f0b9b.webp",
+        "key": "shoes-normal-3b04d36f0b9b.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/top-diffuse-9f4da3de5a7e.webp",
+        "key": "top-diffuse-9f4da3de5a7e.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/rider/top-normal-643eceebc6eb.webp",
+        "key": "top-normal-643eceebc6eb.webp",
+        "texture": true
+      },
+      {
+        "to": "textures/surfaces/asphalt_02_diff_1k.webp",
+        "key": "/assets/asphalt_02_diff_1k.jpg",
+        "texture": false
+      },
+      {
+        "to": "textures/surfaces/asphalt_02_nor_gl_1k.jpg",
+        "key": "/assets/asphalt_02_nor_gl_1k.jpg",
+        "texture": false
+      },
+      {
+        "to": "textures/surfaces/asphalt_02_rough_1k.webp",
+        "key": "/assets/asphalt_02_rough_1k.jpg",
+        "texture": false
+      },
+      {
+        "to": "textures/surfaces/concrete_floor_03_diff_1k.webp",
+        "key": "/assets/concrete_floor_03_diff_1k.jpg",
+        "texture": false
+      },
+      {
+        "to": "textures/surfaces/concrete_floor_03_nor_gl_1k.jpg",
+        "key": "/assets/concrete_floor_03_nor_gl_1k.jpg",
+        "texture": false
+      },
+      {
+        "to": "textures/surfaces/concrete_floor_03_rough_1k.webp",
+        "key": "/assets/concrete_floor_03_rough_1k.jpg",
+        "texture": false
+      },
+      {
+        "to": "animations/rider-animations.json",
+        "key": "/assets/rider-animations.json"
+      }
+    ]
+  },
+  "files": [
+    {
+      "file": "assets/asphalt_02_diff_1k-Cmepliz7.webp",
+      "bytes": 522464,
+      "sha256": "b7f563366109b63e2bd698a75cc9d4d38da813b09abc35d25cfba0116cca9867"
+    },
+    {
+      "file": "assets/asphalt_02_nor_gl_1k-BkoCGRVJ.jpg",
+      "bytes": 1240122,
+      "sha256": "42a1c381b53204e83a982db2864479a30bc127bbdeebb1006f8ee51bff099df3"
+    },
+    {
+      "file": "assets/asphalt_02_rough_1k-CEHrsp0T.webp",
+      "bytes": 389652,
+      "sha256": "f7469484b4c3e6dcd31e8529470cef5dc1a546313ba5a23da632d6cc04a0bd25"
+    },
+    {
+      "file": "assets/body-diffuse-478218108e43-hHRWfvcq.webp",
+      "bytes": 170162,
+      "sha256": "478218108e4328da9b631163eeb21b165ee3e511d4ee0429ad50835a25116814"
+    },
+    {
+      "file": "assets/body-normal-c89869e981b7-Co9HzzZL.webp",
+      "bytes": 518830,
+      "sha256": "c89869e981b7f9d47d07b470d4ac4c4f187a14d9af4b07e9a35bc55d08f66205"
+    },
+    {
+      "file": "assets/body-opacity-93d653bec587-B2nTTEGt.webp",
+      "bytes": 5034,
+      "sha256": "93d653bec587e1d0d1b7c31f9f6027fc21082590021873bbefe3c13e2728bb55"
+    },
+    {
+      "file": "assets/bottom-diffuse-3d6e895a2b03-Bipv_2nn.webp",
+      "bytes": 220992,
+      "sha256": "3d6e895a2b03d48adc6d991f07ae3732697c75a179f72032a7b651d9699bbe36"
+    },
+    {
+      "file": "assets/bottom-normal-413dc4370793-DTsIHXNn.webp",
+      "bytes": 755932,
+      "sha256": "413dc4370793f670324f212a8075cfc712d6ba32f895b27924418c4903d9c121"
+    },
+    {
+      "file": "assets/concrete_floor_03_diff_1k-DXv9BKGr.webp",
+      "bytes": 513416,
+      "sha256": "30b5af4901b422eafb90f3a44828ecab9135fb268d17b43d58658657833cc7d0"
+    },
+    {
+      "file": "assets/concrete_floor_03_nor_gl_1k-CVCMaDMu.jpg",
+      "bytes": 1105067,
+      "sha256": "f9f18d02c1e4e655aa321ddeaf2c696a87a9c4782fea7119c65310c510367f5a"
+    },
+    {
+      "file": "assets/concrete_floor_03_rough_1k-AeqvcZZ_.webp",
+      "bytes": 426852,
+      "sha256": "4bced7e78170fcf49b3904790ad7bd34e52adfcf7467f2b371a620e26fc64b27"
+    },
+    {
+      "file": "assets/hair-diffuse-3ca3551b5df3-CXdo1Ld3.webp",
+      "bytes": 67946,
+      "sha256": "3ca3551b5df3a5ae33c913a7947983b3a9fd308ef9aa1547cdf2a4f6a210f064"
+    },
+    {
+      "file": "assets/hair-normal-83fc81fc4692-CyvpHaZX.webp",
+      "bytes": 119716,
+      "sha256": "83fc81fc46925df77d9b75eb74ca094d50ddaf0c034dfd62b06314064fab17cc"
+    },
+    {
+      "file": "assets/hair-opacity-b7eca9491514-otox5vaE.webp",
+      "bytes": 278706,
+      "sha256": "b7eca9491514f50af273563dff9d7a75af2c141a1c2dc0f754d857e10160dd5f"
+    },
+    {
+      "file": "assets/rider-D4kTpJ-e.fbx",
+      "bytes": 1954784,
+      "sha256": "2fc0c5eefff235626f20eae5cd2f2e85e501ff797eaf3e394750735152fc7b21"
+    },
+    {
+      "file": "assets/rider-animations-D8MKVezM.json",
+      "bytes": 584742,
+      "sha256": "c2d4d6331d3691512468ebc342ec429684474f9babbca5b5d16a75c18008fd0f"
+    },
+    {
+      "file": "assets/shoes-diffuse-5da1870aa0f9-CAv96nAP.webp",
+      "bytes": 143470,
+      "sha256": "5da1870aa0f996cba215b39e15eef14426f0fb0cb5a4f47727885ff7e979807b"
+    },
+    {
+      "file": "assets/shoes-normal-3b04d36f0b9b-BBBBGeUx.webp",
+      "bytes": 765538,
+      "sha256": "3b04d36f0b9b8cd77232bb29fba44a237c1e3b64e8d631c096193a8c0b4f9625"
+    },
+    {
+      "file": "assets/top-diffuse-9f4da3de5a7e-C4YKe78D.webp",
+      "bytes": 140260,
+      "sha256": "9f4da3de5a7e27aaf9c649216ff832ce5dd8e2c41d881108b117e5076aaccb2c"
+    },
+    {
+      "file": "assets/top-normal-643eceebc6eb-Db3rp4jv.webp",
+      "bytes": 484108,
+      "sha256": "643eceebc6eb15166e7676371ba36b770d3c900e09d1c00dfc9431f7561b7689"
+    },
+    {
+      "file": "css/index-aZoWHZtU.css",
+      "bytes": 188365,
+      "sha256": "f8ee10dd24ad83c2e0fab35d31e8cd088463001d06d12d99503462f2eaf3d803"
+    },
+    {
+      "file": "index.html",
+      "bytes": 610,
+      "sha256": "e874e42d9341794c1474b9a3bed692e4cba936ba8970d6b6d140382130af3ca7"
+    },
+    {
+      "file": "js/Engine-CJaLdQIc.js",
+      "bytes": 84582,
+      "sha256": "c649287261840d85d53a6dbe198426fd3ccd0deb4b957639cf68f2e8f9b14202"
+    },
+    {
+      "file": "js/index-DUvw6MpC.js",
+      "bytes": 423659,
+      "sha256": "3b1f0cfbaa45ea6854ccc64f8ff72c1fbc8abc67fb19adc4e5de5b05031319f9"
+    },
+    {
+      "file": "js/rolldown-runtime-C_Tp3paw.js",
+      "bytes": 567,
+      "sha256": "1b13387cb23dc39bf70e31677c21f6db5cad3377b96f286b6ee444496e5bfea7"
+    },
+    {
+      "file": "js/three-addons-CEhwxJL1.js",
+      "bytes": 61196,
+      "sha256": "560eec841f739add074df8580f6107c62a030338668be0bb575dc94d96e92344"
+    },
+    {
+      "file": "js/three-runtime-CRL2wtjR.js",
+      "bytes": 559864,
+      "sha256": "76d5017699487dc87fc6875121fcc5384abe96fe23a9bc02c61b1cb23b76334a"
+    }
+  ]
+}
